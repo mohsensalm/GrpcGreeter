@@ -1,0 +1,40 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Grpserver";
+
+package GetPerson;
+
+// the person service definetion
+service person {
+ rpc GetPeople (Empty) returns (PersonListModel);
+ rpc CreatePerson(PersonModel) returns (Result);
+ rpc Findperson (PersonProto) returns (PersonModel);
+ rpc Removeperson(PersonProto) returns (Empty) ; 
+}
+
+message PersonListModel {
+ 	repeated PersonModel People = 1; 
+
+}
+ message Result{
+
+ }
+ message PersonProto{
+     int32 PersonId=1;
+ }
+ message Empty{
+
+ }
+
+ message PersonRemoved{
+     string Name = 1;
+ }
+
+
+message PersonModel {
+  string FirstName = 1;
+  string LastName = 2;
+  bool IsAlive = 3;
+  int32 age = 4;
+  int32 id = 5 ;
+}

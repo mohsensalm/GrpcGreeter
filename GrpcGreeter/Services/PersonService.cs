@@ -1,7 +1,6 @@
 ﻿
 using Grpc.Core;
 using Grpserver;
-using System.Linq;
 
 namespace GrpcGreeter.Services
 {
