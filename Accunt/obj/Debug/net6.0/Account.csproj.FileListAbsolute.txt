@@ -2,7 +2,6 @@ C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\bin\Debug\net6.0\Account.e
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\bin\Debug\net6.0\Account.deps.json
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\bin\Debug\net6.0\Account.runtimeconfig.json
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\bin\Debug\net6.0\Account.dll
-C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\bin\Debug\net6.0\ref\Account.dll
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\bin\Debug\net6.0\Account.pdb
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\Account.csproj.AssemblyReference.cache
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\Account.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\Account.d
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\ref\Account.dll
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\Account.pdb
 C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\Account.genruntimeconfig.cache
+C:\Users\Ariyana-PC10\source\repos\GrpcGreeter\Accunt\obj\Debug\net6.0\refint\Account.dll
