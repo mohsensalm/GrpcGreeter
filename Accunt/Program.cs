@@ -1,10 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+
+//Console.WriteLine("Hello, World!");
+
+using System.Collections;
+using System.Linq;
 
 Account.remaning();
 public class Account
 {
-   // public IList duc { get; set; }
     public static async Task<int> deposit()
     {
         Console.WriteLine("please inter your deposite amount");
@@ -26,20 +30,27 @@ public class Account
         var a = deposit().Result;
         var b = widraw().Result;
         var c = a - b;
+        var h = await ListOfDucuments();
         if (a >= b)
         {
             Console.WriteLine("your opration is done");
-            Console.WriteLine(c);
+            Console.WriteLine($"your balance is {c}");
+            foreach (var d in h)
+                Console.WriteLine(d);       
+           
         }
         else
         {
-            Console.WriteLine("your opration faild \t amout of widraw must be lowear than the deposit mount");
+            Console.WriteLine("your opration faild \t amout of widraw must be lowear than the deposit amount");
            // throw new Exception (); 
-
         }
-        return c;
+        return c ;
+    }
+    public static Task< List<string>> ListOfDucuments()
+    {
+        var p = new List<string> {"bill","profile"};
 
-
+        return Task.FromResult(p)  ;
     }
 
 }
