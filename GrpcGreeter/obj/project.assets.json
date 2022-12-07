@@ -2329,12 +2329,14 @@
       "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ariyana-PC10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ariyana-PC10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

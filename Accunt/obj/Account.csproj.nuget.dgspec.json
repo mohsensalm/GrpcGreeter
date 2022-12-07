@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeter.csproj": {}
+    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeter.csproj": {
+    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeter.csproj",
-        "projectName": "GrpcGreeter",
-        "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeter.csproj",
+        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj",
+        "projectName": "Account",
+        "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj",
         "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\obj\\",
+        "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ariyana-PC10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,26 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.21.10, )"
-            },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.50.0, )"
-            },
-            "Grpc.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.50.0, )"
-            },
-            "System.Linq.Expressions": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

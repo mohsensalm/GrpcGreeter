@@ -15,7 +15,12 @@
       "ProjectGuid": "05240696-6635-455a-8173-0465cbc4dec8",
       "DisplayName": "GrpcGreeterClient",
       "ColorIndex": 1
+    },
+    "a31dee1d-8576-486d-b7be-0cbd20032e08": {
+      "ProjectGuid": "a31dee1d-8576-486d-b7be-0cbd20032e08",
+      "DisplayName": "Account",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
