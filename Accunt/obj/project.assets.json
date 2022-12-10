@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj",
-      "projectName": "Account",
-      "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj",
+      "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Console.Account.csproj",
+      "projectName": "Console.Account",
+      "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Console.Account.csproj",
       "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\obj\\",
       "projectStyle": "PackageReference",

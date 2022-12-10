@@ -58,6 +58,10 @@ namespace Grpserver {
     static readonly grpc::Marshaller<global::Grpserver.Result> __Marshaller_GetPerson_Result = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.Result.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Grpserver.PersonProto> __Marshaller_GetPerson_PersonProto = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.PersonProto.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Grpserver.accountinfo> __Marshaller_GetPerson_accountinfo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.accountinfo.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Grpserver.accuntoutinfo> __Marshaller_GetPerson_accuntoutinfo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.accuntoutinfo.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Grpserver.Empty, global::Grpserver.PersonListModel> __Method_GetPeople = new grpc::Method<global::Grpserver.Empty, global::Grpserver.PersonListModel>(
@@ -90,6 +94,14 @@ namespace Grpserver {
         "Removeperson",
         __Marshaller_GetPerson_PersonProto,
         __Marshaller_GetPerson_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Grpserver.accountinfo, global::Grpserver.accuntoutinfo> __Method_personacountinfo = new grpc::Method<global::Grpserver.accountinfo, global::Grpserver.accuntoutinfo>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "personacountinfo",
+        __Marshaller_GetPerson_accountinfo,
+        __Marshaller_GetPerson_accuntoutinfo);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -125,6 +137,12 @@ namespace Grpserver {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Grpserver.accuntoutinfo> personacountinfo(global::Grpserver.accountinfo request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -136,7 +154,8 @@ namespace Grpserver {
           .AddMethod(__Method_GetPeople, serviceImpl.GetPeople)
           .AddMethod(__Method_CreatePerson, serviceImpl.CreatePerson)
           .AddMethod(__Method_Findperson, serviceImpl.Findperson)
-          .AddMethod(__Method_Removeperson, serviceImpl.Removeperson).Build();
+          .AddMethod(__Method_Removeperson, serviceImpl.Removeperson)
+          .AddMethod(__Method_personacountinfo, serviceImpl.personacountinfo).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -150,6 +169,7 @@ namespace Grpserver {
       serviceBinder.AddMethod(__Method_CreatePerson, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Grpserver.PersonModel, global::Grpserver.Result>(serviceImpl.CreatePerson));
       serviceBinder.AddMethod(__Method_Findperson, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Grpserver.PersonProto, global::Grpserver.PersonModel>(serviceImpl.Findperson));
       serviceBinder.AddMethod(__Method_Removeperson, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Grpserver.PersonProto, global::Grpserver.Empty>(serviceImpl.Removeperson));
+      serviceBinder.AddMethod(__Method_personacountinfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Grpserver.accountinfo, global::Grpserver.accuntoutinfo>(serviceImpl.personacountinfo));
     }
 
   }

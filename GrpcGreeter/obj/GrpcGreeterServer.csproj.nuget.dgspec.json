@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
+    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeterServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
+    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeterServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
-        "projectName": "GrpcGreeterClient",
-        "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeterServer.csproj",
+        "projectName": "GrpcGreeterServer",
+        "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeterServer.csproj",
         "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\obj\\",
+        "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Ariyana-PC10\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,11 +44,7 @@
               "target": "Package",
               "version": "[3.21.10, )"
             },
-            "Grpc.Net.Client": {
-              "target": "Package",
-              "version": "[2.50.0, )"
-            },
-            "Grpc.Net.ClientFactory": {
+            "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.50.0, )"
             },
@@ -61,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.50.0, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -75,6 +71,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

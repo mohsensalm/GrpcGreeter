@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7QLz9aPTtdu2TZRDcIIt05GasnDZ533KyFZZGZDLIq/8wfL+uvMrxh8hGX3nPtEnzxZKEEcbz4KOZxKrrpzdfA==",
+  "dgSpecHash": "yYdxM9Ixns3Om2/EKXeWMQOcJj7CMV/ffKU2392qJVF7VmQTN9EgwVpaKsoLZjOxkJdM5qt13ImPqBk2NFqQcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Account.csproj",
+  "projectFilePath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\Accunt\\Console.Account.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

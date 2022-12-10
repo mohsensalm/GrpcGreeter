@@ -2430,9 +2430,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeter.csproj",
-      "projectName": "GrpcGreeter",
-      "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeter.csproj",
+      "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeterServer.csproj",
+      "projectName": "GrpcGreeterServer",
+      "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\GrpcGreeterServer.csproj",
       "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeter\\obj\\",
       "projectStyle": "PackageReference",
