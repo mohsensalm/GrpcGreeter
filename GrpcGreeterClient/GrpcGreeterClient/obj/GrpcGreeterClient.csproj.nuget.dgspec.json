@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
+    "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
+    "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
         "projectName": "GrpcGreeterClient",
-        "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "projectPath": "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
         "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\obj\\",
+        "outputPath": "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
