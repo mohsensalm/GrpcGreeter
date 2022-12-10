@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "GrpcGreeterClient/1.0.0": {
         "dependencies": {
+          "Account": "1.0.0",
           "Google.Protobuf": "3.21.10",
           "Grpc.Net.Client": "2.50.0",
           "Grpc.Net.ClientFactory": "2.50.0",
@@ -179,7 +180,12 @@
           }
         }
       },
-      "System.Memory/4.5.3": {}
+      "System.Memory/4.5.3": {},
+      "Account/1.0.0": {
+        "runtime": {
+          "Account.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -306,6 +312,11 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "Account/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

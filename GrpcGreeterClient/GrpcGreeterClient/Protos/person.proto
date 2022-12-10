@@ -10,6 +10,8 @@ service person {
  rpc CreatePerson(PersonModel) returns (Result);
  rpc Findperson (PersonProto) returns (PersonModel);
  rpc Removeperson(PersonProto) returns (Empty) ; 
+   rpc personacountinfo(accountinfo)returns(accuntoutinfo);
+
 }
 
 message PersonListModel {
@@ -37,4 +39,12 @@ message PersonModel {
   bool IsAlive = 3;
   int32 age = 4;
   int32 id = 5 ;
+}
+message accountinfo{
+ int32 Depositeamount = 1;
+ int32 Widrawamount = 2 ;
+}
+
+message accuntoutinfo{
+   int32 remaning = 1 ;
 }

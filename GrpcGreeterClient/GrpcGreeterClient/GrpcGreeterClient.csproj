@@ -19,4 +19,7 @@
 	<ItemGroup>
 		<Protobuf Include="Protos\*.proto" GrpcServices="Client" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\..\..\Desktop\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\Accunt\Account.csproj" />
+	</ItemGroup>
 </Project>

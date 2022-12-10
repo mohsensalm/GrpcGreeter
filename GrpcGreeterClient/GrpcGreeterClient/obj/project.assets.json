@@ -253,6 +253,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Account/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Account.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Account.dll": {}
+        }
       }
     }
   },
@@ -615,10 +625,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Account/1.0.0": {
+      "type": "project",
+      "path": "../../../../../Desktop/GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f/Accunt/Account.csproj",
+      "msbuildProject": "../../../../../Desktop/GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f/Accunt/Account.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Account >= 1.0.0",
       "Google.Protobuf >= 3.21.10",
       "Grpc.Net.Client >= 2.50.0",
       "Grpc.Net.ClientFactory >= 2.50.0",
@@ -656,7 +672,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj": {
+              "projectPath": "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
