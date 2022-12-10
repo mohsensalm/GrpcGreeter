@@ -5,10 +5,11 @@ using System.Security.Principal;
 
 var d=Account.deposit();
 var w=Account.widraw();
-var proto= new accountinfo() { Widrawamount =w.Result , Depositeamount = d.Result};
 var channel = GrpcChannel.ForAddress("https://localhost:7085");
 var personService = new person.personClient(channel);
+var proto = new accountinfo() { Widrawamount = w.Result, Depositeamount = d.Result };
 var p = personService.personacountinfo(proto);
+Console.WriteLine(p);
 
 
 
