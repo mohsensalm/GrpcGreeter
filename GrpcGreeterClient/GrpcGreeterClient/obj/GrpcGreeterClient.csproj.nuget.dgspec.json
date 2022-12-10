@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
+    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
+    "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
-        "projectName": "GrpcGreeterClient",
-        "projectPath": "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj",
+        "projectName": "Account",
+        "projectPath": "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj",
         "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ariyana-PC10\\Source\\Repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\obj\\",
+        "outputPath": "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,6 +32,69 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "projectName": "GrpcGreeterClient",
+        "projectPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+        "packagesPath": "C:\\Users\\Ariyana-PC10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ariyana-PC10\\source\\repos\\GrpcGreeter\\GrpcGreeterClient\\GrpcGreeterClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ariyana-PC10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj": {
+                "projectPath": "C:\\Users\\Ariyana-PC10\\Desktop\\GrpcGreeter-6474b1a3d9b5ec2cf061683cdade5dad04e0002f\\Accunt\\Account.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

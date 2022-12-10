@@ -58,6 +58,10 @@ namespace Grpserver {
     static readonly grpc::Marshaller<global::Grpserver.Result> __Marshaller_GetPerson_Result = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.Result.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Grpserver.PersonProto> __Marshaller_GetPerson_PersonProto = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.PersonProto.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Grpserver.accountinfo> __Marshaller_GetPerson_accountinfo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.accountinfo.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Grpserver.accuntoutinfo> __Marshaller_GetPerson_accuntoutinfo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Grpserver.accuntoutinfo.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Grpserver.Empty, global::Grpserver.PersonListModel> __Method_GetPeople = new grpc::Method<global::Grpserver.Empty, global::Grpserver.PersonListModel>(
@@ -90,6 +94,14 @@ namespace Grpserver {
         "Removeperson",
         __Marshaller_GetPerson_PersonProto,
         __Marshaller_GetPerson_Empty);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Grpserver.accountinfo, global::Grpserver.accuntoutinfo> __Method_personacountinfo = new grpc::Method<global::Grpserver.accountinfo, global::Grpserver.accuntoutinfo>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "personacountinfo",
+        __Marshaller_GetPerson_accountinfo,
+        __Marshaller_GetPerson_accuntoutinfo);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -203,6 +215,26 @@ namespace Grpserver {
       public virtual grpc::AsyncUnaryCall<global::Grpserver.Empty> RemovepersonAsync(global::Grpserver.PersonProto request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Removeperson, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Grpserver.accuntoutinfo personacountinfo(global::Grpserver.accountinfo request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return personacountinfo(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Grpserver.accuntoutinfo personacountinfo(global::Grpserver.accountinfo request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_personacountinfo, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Grpserver.accuntoutinfo> personacountinfoAsync(global::Grpserver.accountinfo request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return personacountinfoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Grpserver.accuntoutinfo> personacountinfoAsync(global::Grpserver.accountinfo request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_personacountinfo, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
